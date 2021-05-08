@@ -21,7 +21,7 @@ public class BaseTest {
 
 	@BeforeMethod
 	public void openBrowser() throws IOException {
-     System.out.println("Opened Browser effectively");
+     System.out.println("Opened Browser now");
      
 		FileInput fi = new FileInput();
 
