@@ -19,7 +19,7 @@ public class Homepage extends BaseTest  {
 	 @Test
 		public void hoverOverOnMaternity() throws InterruptedException {
 		dr.findElement(By.xpath("/html/body/div[4]/button")).click();
-		Thread.sleep(5000);
+		Thread.sleep(7000);
 		Actions act = new Actions(dr);
 		WebElement element = dr.findElement(By.xpath("//*[@id=\"topNavWrapper\"]/div/div/ul/li[9]/div[1]/a"));
 		act.moveToElement(element).build().perform();
